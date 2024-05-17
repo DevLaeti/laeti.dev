@@ -1,0 +1,110 @@
+html, body {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #50727B;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+.header {
+    width: 100%;
+
+    text-align: center;
+}
+.insideheader .laetiwrap {
+    display: inline-block;
+    height: 256px;
+
+    border-bottom: 6px solid black;
+}
+.insideheader .laeti {
+    border-bottom: 4px solid #FAF9F6;
+}
+.insideheader .laeti:hover {
+    filter: brightness(105%);
+}
+.insideheader p, .insideheader h1 {
+    color: #FAF9F6;
+    text-shadow: 3px 3px black;
+}
+.insideheader h1 {
+    font-family: Minecraftia, sans-serif;
+    font-size: 30px;
+}
+
+.content {
+    width: 100%;
+
+    margin-top: 60px;
+}
+.tiles {
+    text-align: center;
+
+    margin-bottom: 100px;
+
+    user-select: none;
+}
+.tile {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+
+    margin: 10px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.tile h1 {
+    margin-bottom: 6px;
+
+    color: #FAF9F6;
+    font-family: Minecraftia, sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+}
+.tile .mod {
+    width: 200px;
+}
+.tile .links {
+    position: absolute;
+    width: 300px;
+}
+.tile .links img:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+.tile .cf {
+    float: left;
+    width: 46px;
+
+    margin: 5px 0 0 72px;
+}
+.tile .mr {
+    float: right;
+    width: 38px;
+
+    margin: 0 75px 0 0;
+}
